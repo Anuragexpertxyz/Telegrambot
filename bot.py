@@ -11,7 +11,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
-        [InlineKeyboardButton(“📢 Channel Management”, callback_data=“channel”)],
+        [InlineKeyboardButton("📢 Channel Management", callback_data="channel")],
         [InlineKeyboardButton(“📝 Scheduled Posts”, callback_data=“schedule”)],
         [InlineKeyboardButton(“📊 Polls”, callback_data=“polls”)],
         [InlineKeyboardButton(“❤️ Reactions”, callback_data=“reactions”)],
